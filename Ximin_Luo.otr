@@ -1,0 +1,17 @@
+# A manually-maintained custom-format validity certificate for my OTR keys.
+# YOU MUST make sure you have the latest version of this file!
+#
+# GPG does not let me create revocable certification signatures on files, only
+# non-revocable signatures. So the signature for this certificate is in the git
+# commit object, to emphasises the fact that I may revoke these keys from time
+# to time. Use `git log --show-signature` to view them.
+#
+# This file is not the ideal solution; I am looking into enabling GPG to export
+# subkeys as OTR keys, so that I can have this validity certificate embedded in
+# my PGP key instead, using actual revocable certification signatures.
+#
+# Fingerprint                               	Status	Protocol	UID
+AFEB8BF7 1033C1CC 4DB817BD 48D03814 8F432BEE	OK	XMPP	redacted
+33162FEE 7D7E68DE 883D4EA1 8B79741A 698B35FA	OK	XMPP	redacted
+1DDA96AE ABF5B83E 6BD5BE11 1F082AD7 58FA0863	OK	IRC	infinity0@chat.freenode.net
+2ABD090E C333D473 6DF71C7D 0B34D5F6 0B958B6D	OK	IRC	infinity0@irc.oftc.net
