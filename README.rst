@@ -9,7 +9,9 @@ Ximin_Luo.otr
 Terminology
 ===========
 
-Being precise is vital here. Read `Validity and Trust <http://www.pgpi.org/doc/pgpintro/#p17>`_ if you haven't already.
+The definitions here are a guide to understanding this document, and apply to this document only. Usage of the same terminology outside of this document may differ.
+
+Being precise is vital here. Please read `Validity and Trust <http://www.pgpi.org/doc/pgpintro/#p17>`_ if you haven't already. Note that in particular, "trust" in PGP is a much more specific concept than "trust" in English; arguably the authors should have used or invented some other word.
 
 In summary:
 
@@ -18,15 +20,15 @@ sign
 certificate
 	A claim that some proposition is true.
 validity
-	The proposition that a key *is in fact* associated with a particular UID.
+	The proposition that a key *is in fact* controlled by a given identity.
 trust
-	The proposition that the owner of a key can (knows how to, and does) sign certificates in a correct way.
+	The proposition that the owner of a key signs certificates *truthfully and properly*, i.e. by personally verifying each certificate's proposition.
 
 In colloquial terms,
 
 - "A signs B's key" more precisely means:
 - "A signs a validity certificate for B's key" which itself more precisely means:
-- "A cryptographically commits that B's key is valid i.e. really does belong to the associated UIDs"
+- "A cryptographically commits that B's key is valid i.e. really is controlled by the given identities"
 
 Certification policy
 ====================
