@@ -54,7 +54,7 @@ Level 1
 Level 2
 	I accepted an offline request to sign this key. The requestor was able to convince me of their identity. Typically this might mean that I've known them personally for a while, or that I saw some official ID, etc.
 Level 3
-	I accepted an offline request to sign this key. The requestor was able to convince me of their identity, and that the secret master key is stored offline.
+	I accepted an offline request to sign this key. The requestor was able to convince me of their identity, that the secret master key is stored offline, and that it is only brought online on a system which is more-likely-than-average to be secure, such as a readonly live-media system.
 
 GPG supports offline storage of just the secret master key, as follows::
 
