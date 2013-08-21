@@ -1,7 +1,7 @@
 BEGIN:VCARD
 VERSION:4.0
 SOURCE:git://github.com/infinity0/pubkeys.git/blob/master:/Ximin_Luo.vcf
-REV:20130808T120000Z
+REV:20130821T090000Z
 CLASS:public
 KIND:individual
 N:Luo;Ximin;;;
@@ -12,6 +12,8 @@ GENDER:M
 LANG:en-GB
 LANG:zh-CN
 EMAIL:infinity0@gmx.com
+EMAIL:infinity0@freenetproject.org
+EMAIL:infinity0@torproject.org
 IMPP:xmpp:infinity0@gmx.com
 IMPP:irc:infinity0@chat.freenode.net
 IMPP:irc:infinity0@irc.oftc.net
